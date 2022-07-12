@@ -1,0 +1,270 @@
+body {
+    background-color: #f6f9fc;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #3366cc;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #4080ff;
+}
+
+#nav {
+    display: block;
+    color: #999999;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333333;
+    font-size: 1em;
+    padding: 8px;
+    border-bottom: 5px solid #3366cc;
+    box-shadow: 0px 5px 5px #dddddd;
+}
+
+#nav ul li {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #999999;
+}
+
+#nav ul li a {
+    color: #999999;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#nav ul li a:hover {
+    color: #ffffff;
+}
+
+
+cc {
+    max-width: 1000px;
+    margin: auto;
+    display: block;
+}
+
+#content, .content {
+    max-width: 1000px;
+    margin: auto;
+    display: block;
+    margin-top: 3em;
+    background-color: white;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    color: #222222;
+    font-size: 0.9em;
+    box-shadow: 0px 4px 5px #dddddd;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+#content h1,h2 {
+    border-bottom: 1px solid #a2a9b1;
+    display: block;
+    width: 100%;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.content h1,h2 {
+    border-bottom: 1px solid #a2a9b1;
+    display: block;
+    width: 100%;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#content h3 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.content h3 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#content h1 {
+    font-size: 1.8em;
+}
+
+.content h1 {
+    font-size: 1.8em;
+}
+
+#content h2 {
+    font-size: 1.5em;
+}
+
+.content h2 {
+    font-size: 1.5em;
+}
+
+.footer {
+    color: #202122;
+    font-size: 0.75em;
+    margin-top: 1em;
+}
+
+.threadpost {
+    float: right;margin: 0px;margin-top: -38px;
+}
+
+@media only screen and (max-device-width: 480px) {
+    #content {
+        margin: 10px;
+    }
+    .footer {
+        margin: 10px;
+    }
+    .tableft {
+        display: none;
+    }
+    .threadpost {
+        float: left;
+        margin: 8px;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+input[type=text] {
+    padding: 6px 8px;
+    margin: 0px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    border: 1px solid #a2a9b1;
+    width: 272px;
+}
+
+input[type=email] {
+    padding: 6px 8px;
+    margin: 0px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    border: 1px solid #a2a9b1;
+    width: 272px;
+}
+
+input[type=password] {
+    padding: 6px 8px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: 1px solid #a2a9b1;
+    width: 272px;
+    margin-top: 8px;
+}
+
+textarea {
+    padding: 6px 8px;
+    margin: 0px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    border: 1px solid #a2a9b1;
+    width: 272px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=file] {
+    padding: 6px 8px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: 1px solid #a2a9b1;
+    width: 272px;
+    margin-top: 8px;
+}
+
+button {
+    padding: 6px 8px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #3366cc;
+    border: 2px solid #3366cc;
+    width: 272px;
+    margin-bottom: 8px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 8px;
+  }
+
+button:hover {
+    cursor: pointer;
+    background-color: #447ff5;
+    border: 2px solid #447ff5;
+}
+
+.tableft {
+    background-color: white;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    color: #222222;
+    font-size: 0.9em;
+    width: 46px;
+    border-bottom: 0px;
+    position: absolute;
+    top: 75px;
+}
+
+
+table {
+    text-align: left;
+    position: relative;
+    border-collapse: collapse; 
+    padding: 0px;
+}
+tr {
+    margin: 0px;
+    padding: 0px;
+}
+td {
+    padding:0px;
+    padding: 5px;
+}
+td a {
+    font-weight: bolder;
+}
+td a:hover {
+    text-decoration: underline;
+}
+
+table {
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 5px #dddddd;
+}
+tr {
+    border: 1px solid #ccc;
+}
+tr .top .left{
+    color: #f60;
+}
+td {
+    border: 1px solid #ccc;
+}
+tr .top {
+    background-color: #f1f1f1;
+}
+.postertd {
+    vertical-align: top;
+    text-align: center;
+    background-color: #f1f1f1;
+}
